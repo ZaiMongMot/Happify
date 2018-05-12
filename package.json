@@ -1,10 +1,11 @@
 {
   "name": "Happify",
-  "version": "0.1.0",
+  "slug":"happify-app",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
+    "jest-expo": "^27.0.1",
     "react-native-scripts": "1.14.0",
-    "jest-expo": "~27.0.0",
     "react-test-renderer": "16.3.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
@@ -20,9 +21,24 @@
   },
   "dependencies": {
     "expo": "^27.0.1",
+    "lodash": "^4.17.10",
     "native-base": "^2.4.3",
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "react-navigation": "^1.5.11"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaiMongMot/Happify.git"
+  },
+  "keywords": [
+    "android"
+  ],
+  "author": "phamthangnd <phamthangnd@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ZaiMongMot/Happify/issues"
+  },
+  "homepage": "https://github.com/ZaiMongMot/Happify#readme"
 }
